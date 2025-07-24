@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
+  
   "env": {
     "DATABASE_URL": "@database_url",
     "NEXT_PUBLIC_APP_NAME": "SecureSight Dashboard",
