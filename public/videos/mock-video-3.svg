@@ -1,0 +1,44 @@
+<!-- Mock Video Placeholder 3 - Entrance -->
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#1a1a2a"/>
+  
+  <!-- Door frame -->
+  <rect x="350" y="80" width="100" height="270" fill="#4a4a4a" stroke="#666" stroke-width="2"/>
+  <rect x="360" y="90" width="80" height="250" fill="#2a2a2a"/>
+  
+  <!-- Door handle -->
+  <circle cx="430" cy="220" r="8" fill="#888888"/>
+  
+  <!-- Person approaching -->
+  <circle cx="250" cy="160" r="25" fill="#4444ff"/>
+  <rect x="235" y="185" width="30" height="60" fill="#4444ff"/>
+  <rect x="230" y="220" width="15" height="40" fill="#4444ff"/>
+  <rect x="255" y="220" width="15" height="40" fill="#4444ff"/>
+  
+  <!-- Face recognition box -->
+  <rect x="220" y="130" width="60" height="60" fill="none" stroke="#00ff00" stroke-width="2"/>
+  <text x="190" y="120" fill="#00ff00" font-family="Arial" font-size="10">FACE MATCH: 94%</text>
+  
+  <!-- ID Card -->
+  <rect x="260" y="200" width="25" height="15" fill="#ffffff" stroke="#000" stroke-width="1"/>
+  <rect x="262" y="202" width="8" height="6" fill="#4444ff"/>
+  
+  <!-- Security panel -->
+  <rect x="500" y="180" width="80" height="120" fill="#2a2a2a" stroke="#555" stroke-width="2"/>
+  <rect x="510" y="190" width="60" height="20" fill="#000000"/>
+  <text x="515" y="205" fill="#00ff00" font-family="Arial" font-size="8">ACCESS GRANTED</text>
+  
+  <!-- Status indicator -->
+  <circle cx="120" cy="50" r="8" fill="#00ff00">
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="140" y="55" fill="#00ff00" font-family="Arial" font-size="12">AUTHORIZED ACCESS</text>
+  
+  <!-- Timestamp -->
+  <rect x="20" y="400" width="200" height="30" fill="#000000" opacity="0.8"/>
+  <text x="30" y="420" fill="#ffffff" font-family="Arial" font-size="14">2025-07-22 09:15:23</text>
+  
+  <!-- Camera info -->
+  <rect x="620" y="20" width="160" height="30" fill="#000000" opacity="0.8"/>
+  <text x="630" y="40" fill="#ffffff" font-family="Arial" font-size="12">Entrance Camera</text>
+</svg>

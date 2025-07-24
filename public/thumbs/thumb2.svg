@@ -1,0 +1,7 @@
+<!-- Simple SVG placeholder for thumbnails -->
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="150" fill="#2e1a1a"/>
+  <text x="100" y="75" fill="#fff" text-anchor="middle" font-family="Arial" font-size="12">Vault Camera</text>
+  <circle cx="50" cy="40" r="8" fill="#ff4444"/>
+  <text x="65" y="45" fill="#ff4444" font-family="Arial" font-size="10">REC</text>
+</svg>

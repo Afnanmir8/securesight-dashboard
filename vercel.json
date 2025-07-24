@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "NEXT_PUBLIC_APP_NAME": "SecureSight Dashboard",
+    "NEXT_PUBLIC_APP_VERSION": "1.0.0",
+    "NODE_ENV": "production"
+  },
+  "build": {
+    "env": {
+      "DATABASE_URL": "@database_url"
+    }
+  },
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "regions": ["iad1"],
+  "framework": "nextjs"
+}
