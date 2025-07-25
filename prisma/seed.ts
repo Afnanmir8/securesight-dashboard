@@ -3,6 +3,7 @@ const prisma = new PrismaClient();
 
 async function main() {
   
+  // Clear existing data in the correct order (incidents first due to foreign key)
   await prisma.incident.deleteMany();
   await prisma.camera.deleteMany();
 
@@ -28,7 +29,7 @@ async function main() {
   
   const incidents = [];
   
-  // Generate 15 incidents with  timestamps over 24 hours
+  // Generate 15 incidents with timestamps over 24 hours
   for (let i = 0; i < 15; i++) {
     const hoursAgo = Math.random() * 24; // Random time in last 24 hours
     const startTime = new Date(now.getTime() - hoursAgo * 60 * 60 * 1000);

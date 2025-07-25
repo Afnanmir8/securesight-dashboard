@@ -9,7 +9,7 @@ interface IncidentListProps {
   onIncidentSelect: (incident: Incident) => void;
   onIncidentResolve: (incidentId: number) => void;
   selectedIncident?: Incident | null;
-}
+} 
 
 const IncidentList = ({ 
   incidents, 
